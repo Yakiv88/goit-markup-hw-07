@@ -1,0 +1,52 @@
+
+/* ----ПОСТОЯННЫЕ КЛИЕНТЫ-----*/
+
+.clients {
+  background-color: var(--header-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients_container {
+  display: block;
+}
+
+/* -----------МЕНЮ company начало-------- */
+
+.company {
+  display: flex;
+}
+
+.company_link {
+  background-color: #ffffff;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  margin-left: 30px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+
+.company_link-first {
+  margin-left: 0px;
+}
+
+.company_label {
+  background-color: var(--header-color);
+}
+
+.company_link:hover,
+.company_link:focus {
+  fill: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1.2);
+}
+
+/* ----ПОСТОЯННЫЕ КЛИЕНТЫ КОНЕЦ-----*/
