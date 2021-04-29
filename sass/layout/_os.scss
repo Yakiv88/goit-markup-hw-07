@@ -10,8 +10,6 @@
   display: block;
 }
 
-
-
 /* -------меню features---- */
 .features {
   display: flex;
@@ -65,6 +63,7 @@
 .features_p {
   margin-right: 10px;
   margin-bottom: 0px;
+  color: var(--brand-letter);
 }
 
 .features_p--end {
